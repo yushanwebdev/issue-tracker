@@ -165,7 +165,13 @@ aside {
 }
 .issues-list .assigned-to {
   width: 1.5rem;
+  height: 1.5rem;
+}
+.issues-list .assigned-to img {
+  width: 100%;
+  height: 100%;
   border-radius: 100%;
+  background: var(--yellow);
 }
 form label {
   margin-bottom: 0.25rem;
